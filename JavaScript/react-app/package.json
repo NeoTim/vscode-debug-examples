@@ -1,5 +1,5 @@
 {
-  "name": "vscode-debug-example-react-app",
+  "name": "@javascript/react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

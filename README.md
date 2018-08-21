@@ -1,4 +1,4 @@
-# 五分钟学会 VSCode 调试
+# 五分钟学会 VSCode 调试
 > Debugging in VSCode
 
 ## JavaScript

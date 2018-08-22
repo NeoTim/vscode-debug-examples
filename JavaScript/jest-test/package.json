@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
-    "test:debug": "node --nolazy --inspect-brk=9229 app.js"
+    "test:watch": "jest --watch"
   },
   "jest": {
     "testPathIgnorePatterns": [

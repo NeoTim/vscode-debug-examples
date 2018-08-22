@@ -1,0 +1,33 @@
+{
+  "name": "@typescript/jest-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "__tests__/.*\\.ts$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.history/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.1"
+  }
+}

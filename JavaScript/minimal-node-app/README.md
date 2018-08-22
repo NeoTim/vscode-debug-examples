@@ -5,7 +5,7 @@
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-code JavaScript/minimal-node-app # 在 VScode 打开项目
+code JavaScript/minimal-node-app # 在 VScode 打开项目
 ```
 
 然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
@@ -16,7 +16,7 @@ code JavaScript/minimal-node-app # 在 VScode 打开项目
 
 调试配置文件存在 `.vscode` 文件夹的 `launch.json` 文件中，最简单配置如下：
 
-``` json
+```json
 
 {
   "version": "0.2.0",

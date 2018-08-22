@@ -18,7 +18,7 @@
 
 **launch 模式配置**:
 
-````json
+```json
 {
   "version": "0.2.0",
   "configurations": [
@@ -34,7 +34,7 @@
 
 **Attach 模式配置**:
 
-``` json
+```json
 {
   "version": "0.2.0",
   "configurations": [

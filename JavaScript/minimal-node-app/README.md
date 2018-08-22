@@ -10,6 +10,8 @@ code JavaScript/minimal-node-app # 在 VScode 打开项目
 
 然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
 
+![体验](/screenshots/minimal-debug.gif)
+
 ## 最简单配置
 
 调试配置文件存在 `.vscode` 文件夹的 `launch.json` 文件中，最简单配置如下：

@@ -1,0 +1,1 @@
+看： https://github.com/Microsoft/vscode-recipes/blob/master/debugging-jest-tests/README.md

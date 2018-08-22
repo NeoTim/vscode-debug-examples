@@ -31,4 +31,4 @@ code JavaScript/minimal-node-app # 在 VScode 打开项目
 }
 ```
 
-更多细节看官方文档：https://code.visualstudio.com/docs/editor/debugging
+更多细节看官方文档：https://code.visualstudio.com/docs/editor/debugging

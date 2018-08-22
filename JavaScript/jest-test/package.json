@@ -1,0 +1,19 @@
+{
+  "name": "@javascript/jest-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --nolazy --inspect-brk=9229 app.js"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.history/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}

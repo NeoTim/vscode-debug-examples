@@ -6,12 +6,11 @@
   "configurations": [
     {
       "type": "chrome",
-      "request": "launch",
-      "name": "Debug React App",
+      "request": "attach",
+      "port": 9222,
+      "name": "Attach to chrome",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}",
-      // "userDataDir": "/tmp/chrome-debug"
-      "userDataDir": "${workspaceRoot}/.vscode/chrome"
+      "webRoot": "${workspaceRoot}"
     }
   ]
 }

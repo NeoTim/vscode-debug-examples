@@ -1,5 +1,5 @@
 {
-  "name": "@javascript/attach-use-nodemon",
+  "name": "@javascript/use-nodemon-attach",
   "version": "0.0.0",
   "private": true,
   "scripts": {

@@ -1,6 +1,6 @@
 # 开始使用 VSCode 调试
 
-> 一些由浅到深的 VScode 调试例子，能让你快速理解和上手 VSCode 调试。
+> 一些由浅到深的 VScode 调试例子，能让你快速理解和上手 VSCode 调试。
 
 ## 为什么使用 VSCode ?
 
@@ -21,9 +21,9 @@
 - [如何使用 npm](JavaScript/use-npm/README.md)
 - [怎样使用 Nodemon](JavaScript/use-nodemon/README.md)
 - [渐进式的配置教学](docs/config-example.md)
-- [react 中使用 `attach` (进阶)](JavaScript/react-app-attach/README.md)
+- [react 中使用 `attach` (进阶)](JavaScript/react-app-attach/README.md)
 - [调试单元测试 (Jest)](JavaScript/jest-test/README.md)
-- [egg.js 调试 (子进程)](JavaScript/egg-app/README.md)
+- [egg.js 调试 (子进程演示)](JavaScript/egg-app/README.md)
 
 ## 全部例子
 

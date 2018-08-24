@@ -1,6 +1,6 @@
 # Nodemon 的基本使用
 
-在真实的开放场景，我们使用 Nodemon(或类似工具) 启动 Node 服务，实现修改本地代码后自动重启，下面演示 VSCode 怎么配合 Nodemon。
+在真实的开放场景，我们使用 Nodemon(或类似工具) 启动 Node 服务，实现修改本地代码后自动重启，下面演示 VSCode 怎么配合 Nodemon。
 
 
 ## 快速体验
@@ -16,7 +16,7 @@ code .  # 在 VScode 打开项目
 
 ## 配置
 
-核心的配置是 `restart: true`，这里为了更简单演示怎么使用 Nodemon 调试，真实的开放场景下，建议使用 `attach` 模式，会更加灵活。
+核心的配置是 `restart: true`，这里为了更简单演示怎么使用 Nodemon 调试，真实的开放场景下，建议使用 `attach` 模式，会更加灵活。
 
 `.vscode/launch.json`
 
@@ -38,4 +38,4 @@ code .  # 在 VScode 打开项目
 }
 ```
 
-了解更多：[Node.js debugging in VS Code with Nodemon](https://github.com/Microsoft/vscode-recipes/tree/master/nodemon)
+了解更多: [Node.js debugging in VS Code with Nodemon](https://github.com/Microsoft/vscode-recipes/tree/master/nodemon)

@@ -1,6 +1,6 @@
 # 开始使用 VSCode 调试
 
-> 一些由浅到深的 VScode 调试例子，能让你快速理解和上手 VSCode 调试。
+> 一些由浅入深的 VScode 调试例子，能让你快速理解和上手 VSCode 调试。
 
 ## 为什么使用 VSCode ?
 
@@ -15,8 +15,8 @@
 ## 浅浅地深入
 
 - [一分钟体验 VScode Node.js 调试](JavaScript/minimal-node-app/README.md) ( [效果图.gif](screenshots/minimal-debug.gif) )
-- [最简单 `launch `模式](JavaScript/minimal-node-app/README.md)
-- [最简单 `attach` 模式](JavaScript/minimal-attach/README.md)
+- [最简单的 `launch `模式](JavaScript/minimal-node-app/README.md)
+- [最简单的 `attach` 模式](JavaScript/minimal-attach/README.md)
 - [深入 `launch` 和 `attach`](docs/launch-and-attach.md)
 - [如何使用 npm](JavaScript/use-npm/README.md)
 - [怎样使用 Nodemon](JavaScript/use-nodemon/README.md)
@@ -47,6 +47,7 @@
 - [express-app](TypeScript/express-app/README.md)
 - [koa-app](TypeScript/koa-app/README.md)
 - [react-app](TypeScript/react-app/README.md)
+- [angular-app](TypeScript/angular-app/README.md)
 - [jest-test](TypeScript/jest-test/README.md)
 - [egg-app](TypeScript/egg-app/README.md)
 

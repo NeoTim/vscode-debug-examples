@@ -8,7 +8,7 @@
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
 cd TypeScript/react-app
-npm i
+npm i & npm start
 code .  # 在 VScode 打开项目
 ```
 

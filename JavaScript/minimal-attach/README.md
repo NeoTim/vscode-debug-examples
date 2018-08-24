@@ -1,11 +1,11 @@
-# npm 的基本使用
+# 最简单的 attach 模式配置
 
 ## 快速体验
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-cd JavaScript/use-npm
-npm i
+cd JavaScript/minimal-attach
+npm i && npm run dev
 code .  # 在 VScode 打开项目
 ```
 

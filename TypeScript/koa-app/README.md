@@ -1,11 +1,11 @@
-# npm 的基本使用
+# VS Code 调试 Koa
 
 ## 快速体验
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-cd JavaScript/use-npm
-npm i
+cd TypeScript/koa-app
+npm i && npm run dev
 code .  # 在 VScode 打开项目
 ```
 

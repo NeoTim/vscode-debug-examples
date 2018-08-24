@@ -3,7 +3,7 @@
 
 为了直观地体验调试的效果，可以先抛开各种复杂的概念，现在 VSCode 中快速体验一下。
 
-## 如何在本地体验调试
+## 快速体验
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git

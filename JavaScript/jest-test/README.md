@@ -4,7 +4,7 @@
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-cd TypeScript/jest-test
+cd JavaScript/jest-test
 npm i
 code .  # 在 VScode 打开项目
 ```

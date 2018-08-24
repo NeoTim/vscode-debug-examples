@@ -1,63 +1,46 @@
-# 五分钟学会 VSCode 调试
+# 开始使用 VSCode 调试
 
 > Debugging in VSCode
 
-## 快速体验
+## 浅浅地深入
 
-为了直观地体验调试的效果，可以先抛开各种复杂的概念，现在 VSCode 中快速体验一下。
+- [一分钟体验 VScode Node.js 调试](JavaScript/minimal-node-app/README.md) ( [效果图.gif](screenshots/minimal-debug.gif) )
+- [深入 `launch` 和 `attach`](docs/launch-and-attach.md)
+- [渐进式的配置教学](docs/config-example.md)
 
-[一分钟体验 VScode Node.js 调试](JavaScript/minimal-node-app/README.md)
+## 渐进式的例子们
 
-视觉效果：[minimal-debug.gif](screenshots/minimal-debug.gif)
+### JavaScript
 
+> JavaScript 版例子
 
-## VScode 两种调试模式
+- [minimal-node-app](JavaScript/minimal-node-app/README.md)
+- [minimal-attach](JavaScript/minimal-attach/README.md)
+- [use-npm](JavaScript/use-npm/README.md)
+- [use-nodemon](JavaScript/use-nodemon/README.md)
+- [use-nodemon-attach](JavaScript/use-nodemon-attach/README.md)
+- [express-app](JavaScript/express-app/README.md)
+- [koa-app](JavaScript/koa-app/README.md)
+- [react-app](JavaScript/react-app/README.md)
+- [react-app-attach](JavaScript/react-app-attach/README.md)
+- [](JavaScript//README.md)
+- [jest-test](JavaScript/jest-test/README.md)
 
-- `launch`：启动程序并进行调试；
-- `attach`：调试某个已启动的程序；
+### TypeScript
 
-**launch 模式配置**:
+> TypeScript 版例子
 
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch 模式",
-      "program": "${workspaceroot}/app.js"
-    }
-  ]
-}
-```
-
-**Attach 模式配置**:
-
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-        "type": "node",
-        "request": "attach",
-        "name": "Attach 模式",
-        "port": 9229
-    }
-  ]
-}
-```
-
-request 参数(attach or launch)决定了使用何种调试模式，当然，在同一项目中，两种模式也可以并存使用。
+- [express-app](TypeScript/express-app/README.md)
+- [koa-app](TypeScript/koa-app/README.md)
+- [react-app](TypeScript/react-app/README.md)
+- [jest-test](TypeScript/jest-test/README.md)
+- [](TypeScript//README.md)
+- [](TypeScript//README.md)
+- [](TypeScript//README.md)
+- [](TypeScript//README.md)
 
 
-## attach 和 launch 的选择
-
-// TODO
-
-当request为launch时，就是launch模式了，这是程序是从vscode这里启动的，如果是在调试那将一直处于调试的模式。而attach模式，是连接已经启动的服务。比如你已经在外面将项目启动，突然需要调试，不需要关掉已经启动的项目再去vscode中重新启动，只要以attach的模式启动，vscode可以连接到已经启动的服务。当调试结束了，断开连接就好，明显比launch更方便一点。
-
-## 文章推荐
+## 参考资料
 
 - [Node Debugging Guide (官方)](https://nodejs.org/en/docs/guides/debugging-getting-started/)
 - [Node 调试指南 —— Inspector 协议](https://zhuanlan.zhihu.com/p/30264842)

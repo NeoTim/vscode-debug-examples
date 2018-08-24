@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "node --nolazy --inspect-brk=9229 app.js"
+    "dev": "node --nolazy --inspect app.js"
   },
   "dependencies": {
     "express": "^4.16.3"

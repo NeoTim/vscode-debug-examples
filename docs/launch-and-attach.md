@@ -52,7 +52,7 @@ request 参数(`attach` or `launch`)决定了使用何种调试模式，当然�
 那到底使用 `launch` 和 `attach`，个人建议使用 `attach` 模式。
 不管是 Web 调试，还是 Node 调试，大部分场景下 `attach` 模式都是比较好的选择。
 
-调试 Web 项目时，使用 launch 模式存在一个问题，就是 VSCode 会以新访客的身份打开一个新的 Chrome 进程 (除非在 `launch.json` 配置中指定 userDataDir)，也就是说, 打开的 Chrome 是未登录的，并且没有插件（如下图所示）。
+调试 Web 项目时，使用 launch 模式存在一个问题，就是 VSCode 会以新访客的身份打开一个新的 Chrome 实例 (除非在 `launch.json` 配置中指定 userDataDir)，也就是说, 打开的 Chrome 是未登录的，并且没有插件（如下图所示）。
 
 ![chrome-not-login](/screenshots/chrome-not-login.gif)
 

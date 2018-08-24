@@ -26,12 +26,22 @@
 }
 ```
 
-例子：[minimal-node-app](JavaScript/minimal-node-app/README.md)
+例子：[minimal-node-app](/JavaScript/minimal-node-app/README.md)
 
 
 ### 最基本的attach模式
 
  `attach` 模式的最简单配置，`attach` 模式用来调试某个已启动的程序，这里使用 `npm srcript` 启动一个 node 服务。
+
+`package.json`
+
+```json
+{
+  "scripts": {
+    "dev": "node --nolazy --inspect app.js"
+  }
+}
+```
 
 `.vscode/launch.json`
 
@@ -49,17 +59,8 @@
 }
 ```
 
-`package.json`
 
-```json
-{
-  "scripts": {
-    "dev": "node --nolazy --inspect app.js"
-  }
-}
-```
-
-例子：[minimal-attach](JavaScript/minimal-attach/README.md)
+例子：[minimal-attach](/JavaScript/minimal-attach/README.md)
 
 
 ### 使用npm
@@ -93,7 +94,7 @@
 }
 ```
 
-例子：[use-nodemon](JavaScript/use-nodemon/README.md)
+例子：[use-nodemon](/JavaScript/use-nodemon/README.md)
 
 
 ### 使用nodemon
@@ -118,4 +119,4 @@
 }
 ```
 
-例子：[use-nodemon](JavaScript/use-nodemon/README.md)
+例子：[use-nodemon](/JavaScript/use-nodemon/README.md)

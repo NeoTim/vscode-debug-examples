@@ -33,4 +33,7 @@ code JavaScript/minimal-node-app # 在 VScode 打开项目
 }
 ```
 
-更多细节看官方文档：https://code.visualstudio.com/docs/editor/debugging
+## 更多
+
+- [深入了解 `launch` 和 `attach`](docs/launch-and-attach.md)
+- [官方文档](https://code.visualstudio.com/docs/editor/debugging)

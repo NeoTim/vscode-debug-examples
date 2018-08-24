@@ -1,4 +1,4 @@
-# VS Code 调试 Jest 测试
+# VSCode 调试 Jest 测试
 
 ## 快速体验
 

@@ -1,5 +1,5 @@
 
-# VS Code 调试 React
+# VSCode 调试 React
 
 本文例子使用 create-react-app 创建 React 项目，代码展示了如何在 VSCode 使用最基本的调试方法。
 

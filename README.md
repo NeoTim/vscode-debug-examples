@@ -2,6 +2,16 @@
 
 > Debugging in VSCode
 
+## 为什么使用 VSCode
+
+我是深度 vi 用户，之前 Atom 深度使用者，现在基本上转到 VSCode，下面是我选择 VSCode 的原因：
+
+- 颜值高，早期不如 Atom，现在已经逐渐赶上
+- vi 支持度好，和 Atom 还差点，但已够用
+- 调试体验好，完爆 Vim 和 Atom
+- 插件多，能和 Vim 和 Atom 打个平手
+- 对 TypeScript 支持更好
+
 ## 浅浅地深入
 
 - [一分钟体验 VScode Node.js 调试](JavaScript/minimal-node-app/README.md) ( [效果图.gif](screenshots/minimal-debug.gif) )
@@ -39,12 +49,11 @@
 - [](TypeScript//README.md)
 - [](TypeScript//README.md)
 
-
 ## 参考资料
 
 - [Node Debugging Guide (官方)](https://nodejs.org/en/docs/guides/debugging-getting-started/)
 - [Node 调试指南 —— Inspector 协议](https://zhuanlan.zhihu.com/p/30264842)
 - [Chrome Remote Debug 初探](https://ielgnaw.com/article/Chrome-Remote-Debug)
 - [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27)
-- [VS Code Debugging](https://code.visualstudio.com/docs/editor/debugging)
-- [Node.js Debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configuration-support-for-npm-and-other-tools)
+- [VSCode Debugging](https://code.visualstudio.com/docs/editor/debugging)
+- [Node.js Debugging in VSCode](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configuration-support-for-npm-and-other-tools)

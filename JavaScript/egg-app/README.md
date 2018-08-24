@@ -1,4 +1,4 @@
-# VS Code 调试 Egg
+# VSCode 调试 Egg
 
 ## 快速体验
 

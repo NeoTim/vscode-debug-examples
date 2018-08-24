@@ -1,12 +1,12 @@
-# 渐进式的配置教学
+# 渐进式的配置教学
 
-- [最基本的 `launch` 模式](#最基本的 `launch` 模式)
-- [最基本的 `attach` 模式](#最基本的`attach`模式)
+- [最基本的launch模式](#最基本的launch模式)
+- [最基本的attach模式](#最基本的attach模式)
 - [使用npm](#使用npm)
 - [使用nodemon](#使用nodemon)
 
 
-### 最基本的 `launch` 模式
+### 最基本的launch模式
 
 这是最简单的配置，使用 `launch` 模式调试 Node.js，实际场景用的不多。
 
@@ -29,7 +29,7 @@
 例子：[minimal-node-app](JavaScript/minimal-node-app/README.md)
 
 
-### 最基本的 `attach` 模式
+### 最基本的attach模式
 
  `attach` 模式的最简单配置，`attach` 模式用来调试某个已启动的程序，这里使用 `npm srcript` 启动一个 node 服务。
 

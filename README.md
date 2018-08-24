@@ -12,7 +12,7 @@
 
 ### JavaScript
 
-> JavaScript 版例子
+> JavaScript 版例子
 
 - [minimal-node-app](JavaScript/minimal-node-app/README.md)
 - [minimal-attach](JavaScript/minimal-attach/README.md)
@@ -28,7 +28,7 @@
 
 ### TypeScript
 
-> TypeScript 版例子
+> TypeScript 版例子
 
 - [express-app](TypeScript/express-app/README.md)
 - [koa-app](TypeScript/koa-app/README.md)

@@ -31,7 +31,4 @@ code JavaScript/react-app # 在 VScode 打开项目
 
 ## 进阶
 
-
-## 建议
-
-上面的介绍是使用 `launch` 模式调试，在真实的开发中，推荐使用 `attach` 模式来调试，会更加灵活。具体方法看: [使用 attach 模式调试 React](/JavaScript/react-app-attach/README.md)
+上面的介绍是使用 `launch` 模式调试，在真实的开发中，推荐使用 `attach` 模式来调试，会更加灵活。具体方法看: [使用 attach 模式调试 React](/JavaScript/react-app-attach/README.md)

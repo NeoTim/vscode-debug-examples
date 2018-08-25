@@ -1,4 +1,4 @@
-[English](./README_zh-CN.md) | 简体中文
+[English](./README.md) | 简体中文
 
 # 开始使用 VSCode 调试
 

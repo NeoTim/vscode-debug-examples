@@ -1,22 +1,22 @@
-# Nodemon 的基本使用
+# Use with Nodemon
 
-在真实的开放场景，我们使用 Nodemon(或类似工具) 启动 Node 服务，实现修改本地代码后自动重启，下面演示 VSCode 怎么配合 Nodemon。
+In a real development scenario, we use Nodemon (or a similar tool) to start the Node service, which can be automatically restarted after modifying the native code. The following explains how VSCode Debugging works with Nodemon.
 
 
-## 快速体验
+## Quick experience
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
 cd JavaScript/use-nodemon
 npm i
-code .  # 在 VScode 打开项目
+code . # open in VScode
 ```
 
-然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
+Then, put a breakpoint on the code in VSCode, press `f5`, and you will see the Debug toolbar.
 
-## 配置
+## Configuration
 
-核心的配置是 `restart: true`，这里为了更简单演示怎么使用 Nodemon 调试，真实的开放场景下，建议使用 `attach` 模式，会更加灵活。
+The core configuration is `restart: true`. To explain how to use Nodemon debugging, the `launch` mode is used here. In the real development scenario, it is recommended to use the `attach` mode, which is more flexible.
 
 `.vscode/launch.json`
 
@@ -27,7 +27,7 @@ code .  # 在 VScode 打开项目
     {
       "type": "node",
       "request": "launch",
-      "name": "nodemon 启动",
+      "name": "Debug with nodemon ",
       "runtimeExecutable": "nodemon",
       "program": "${workspaceFolder}/app.js",
       "restart": true,
@@ -38,4 +38,4 @@ code .  # 在 VScode 打开项目
 }
 ```
 
-了解更多: [Node.js debugging in VS Code with Nodemon](https://github.com/Microsoft/vscode-recipes/tree/master/nodemon)
+Learn more: [Node.js debugging in VS Code with Nodemon](https://github.com/Microsoft/vscode-recipes/tree/master/nodemon)

@@ -1,17 +1,19 @@
-# 最简单的 attach 模式配置
+# Simplest `attach` mode
 
-## 快速体验
+The simplest configuration of the `attach` mode, the `attach` mode is used to debug a started program, here use `npm srcript` to start a node service.
+
+## Quick experience
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
 cd JavaScript/minimal-attach
 npm i && npm run dev
-code .  # 在 VScode 打开项目
+code . # open in VScode
 ```
 
-然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
+Then, put a breakpoint on the code in VSCode, press `f5`, and you will see the Debug toolbar.
 
-## 配置
+## Configuration
 
 `package.json`
 
@@ -39,7 +41,7 @@ code .  # 在 VScode 打开项目
 }
 ```
 
-## 更多
+## References
 
-- [深入了解 `launch` 和 `attach`](docs/launch-and-attach.md)
-- [官方文档](https://code.visualstudio.com/docs/editor/debugging)
+- [Understanding `launch` and `attach`](/docs/launch-and-attach.md)
+- [Official Docs](https://code.visualstudio.com/docs/editor/debugging)

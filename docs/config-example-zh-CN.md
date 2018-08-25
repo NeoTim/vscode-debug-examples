@@ -1,15 +1,14 @@
-# Head first configurations
+# 渐进式的配置教学
 
-- [Simplest launch mode](#simplest-launch-mode)
-- [Simplest attach mode](#simplest-attach-mode)
-- [Use npm](#use-npm)
-- [Use nodemon](#use-nodemon)
-
-
-### Simplest launch mode
+- [最基本的launch模式](#最基本的launch模式)
+- [最基本的attach模式](#最基本的attach模式)
+- [使用npm](#使用npm)
+- [使用nodemon](#使用nodemon)
 
 
-This is the simplest configuration, debugging Node.js using the `launch` mode, which is less used in real development scenarios.
+### 最基本的launch模式
+
+这是最简单的配置，使用 `launch` 模式调试 Node.js，实际场景用的不多。
 
 `.vscode/launch.json`
 
@@ -27,12 +26,12 @@ This is the simplest configuration, debugging Node.js using the `launch` mode, w
 }
 ```
 
-Example: [minimal-node-app](/JavaScript/minimal-node-app/README.md)
+例子：[minimal-node-app](/JavaScript/minimal-node-app/README_zh-CN.md)
 
 
-### Simplest attach mode
+### 最基本的attach模式
 
-The simplest configuration of the `attach` mode, the `attach` mode is used to debug a started program, here use `npm srcript` to start a node service.
+ `attach` 模式的最简单配置，`attach` 模式用来调试某个已启动的程序，这里使用 `npm srcript` 启动一个 node 服务。
 
 `package.json`
 
@@ -61,10 +60,11 @@ The simplest configuration of the `attach` mode, the `attach` mode is used to de
 ```
 
 
-Example: [minimal-attach](/JavaScript/minimal-attach/README.md)
+例子：[minimal-attach](/JavaScript/minimal-attach/README.md)
 
 
-### Use npm
+### 使用npm
+
 
 `package.json`
 
@@ -95,11 +95,10 @@ Example: [minimal-attach](/JavaScript/minimal-attach/README.md)
 }
 ```
 
+例子：[use-npm](/JavaScript/use-npm/README.md)
 
-Example: [use-npm](/JavaScript/use-npm/README.md)
 
-
-### Use nodemon
+### 使用nodemon
 
 `.vscode/launch.json`
 
@@ -110,7 +109,7 @@ Example: [use-npm](/JavaScript/use-npm/README.md)
     {
       "type": "node",
       "request": "launch",
-      "name": "Use nodemon",
+      "name": "nodemon 启动",
       "runtimeExecutable": "nodemon",
       "program": "${workspaceFolder}/app.js",
       "restart": true,
@@ -121,4 +120,4 @@ Example: [use-npm](/JavaScript/use-npm/README.md)
 }
 ```
 
-Example: [use-nodemon](/JavaScript/use-nodemon/README.md)
+例子：[use-nodemon](/JavaScript/use-nodemon/README_zh-CN.md)

@@ -1,22 +1,23 @@
-# 一分钟体验 VSCode 调试 Node.js 应用
-> 最基本的 Node.js 应用调试
+# Experience VScode Node.js debugging in one minute
 
-为了直观地体验调试的效果，可以先抛开各种复杂的概念，现在 VSCode 中快速体验一下。
+> The simplest Node.js Debugging
 
-## 快速体验
+Leave out a variety of complex concepts, now quickly experience it in VSCode.
+
+## Quick experience
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-code JavaScript/minimal-node-app # 在 VScode 打开项目
+code JavaScript/minimal-node-app # open in VScode
 ```
 
-然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
+Then, put a breakpoint on the code in VSCode, press `f5`, and you will see the Debug toolbar.
 
-![体验](/screenshots/minimal-debug.gif)
+![exp](/screenshots/minimal-debug.gif)
 
-## 最简单配置
+## Simplest Configuration
 
-调试配置文件存在 `.vscode` 文件夹的 `launch.json` 文件中，最简单配置如下：
+`.vscode/launch.json`
 
 ```json
 
@@ -33,7 +34,7 @@ code JavaScript/minimal-node-app # 在 VScode 打开项目
 }
 ```
 
-## 更多
+## References
 
-- [深入了解 `launch` 和 `attach`](docs/launch-and-attach.md)
-- [官方文档](https://code.visualstudio.com/docs/editor/debugging)
+- [Understanding `launch` and `attach`](/docs/launch-and-attach.md)
+- [Official Docs](https://code.visualstudio.com/docs/editor/debugging)

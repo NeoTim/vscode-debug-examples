@@ -1,15 +1,22 @@
+# Debug React in VSCode
 
-# VSCode 调试 React
+The example in this article uses create-react-app to create a React project, and the code shows how to use the most basic debugging methods in VSCode.
 
-本文例子使用 create-react-app 创建 React 项目，代码展示了如何在 VSCode 使用最基本的调试方法。
-
-## 快速体验
+## Quick experience
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
 cd TypeScript/react-app
 npm i & npm start
-code .  # 在 VScode 打开项目
+code .  # open in VScode
 ```
 
-然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
+Then, put a breakpoint on the code in VSCode, press `f5`, and you will see the Debug toolbar.
+
+## Advanced
+
+In the above, we use the `launch` mode to debug. In real development, it is recommended to use the `attach` mode for debugging, which will be more flexible. See: [Use `attach` in react (Advanced)](/JavaScript/react-app-attach/README.md)
+
+
+
+

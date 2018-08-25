@@ -1,18 +1,15 @@
-# Lauch 和 Attach
+# Lauch and Attach
 
-## VScode 两种调试模式
+## Two debugging modes in VScode
 
-VSCode 提供了两种调试模式：
+- `launch`:  Start a program and debug it;
+- `attach`: Debug an already started program;
 
-- `launch`：启动程序并进行调试；
-- `attach`：调试某个已启动的程序；
+What is the difference between the two modes? **Launch mode** Start a program with debug mode by VSCode; **Attach mode** is attached to an already started program, which means that the program is not started by VSCode.
 
-有什么区别呢？**launch模式** 由 VSCode 来启动一个独立的具有 debug 模式的程序；**attach模式** 附加于一个已经启动的程序，也就是程序本身不是通过 VSCode 启动的。
+## Showcase of Two mode configurations
 
-
-## 两种模式配置演示
-
-**launch 模式配置**:
+**launch mode**:
 
 ```json
 {
@@ -21,14 +18,14 @@ VSCode 提供了两种调试模式：
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch 模式",
+      "name": "Launch mode",
       "program": "${workspaceroot}/app.js"
     }
   ]
 }
 ```
 
-**attach 模式配置**:
+**attach mode**:
 
 ```json
 {
@@ -37,26 +34,25 @@ VSCode 提供了两种调试模式：
     {
         "type": "node",
         "request": "attach",
-        "name": "Attach 模式",
+        "name": "Attach mode",
         "port": 9229
     }
   ]
 }
 ```
 
-request 参数(`attach` or `launch`)决定了使用何种调试模式，当然，在同一项目中，两种模式也可以并存使用。
+The `request` parameter (`attach` or `launch`) determines which debug mode to use. Of course, in the same project, the two modes can also be used together.
 
+## Choose launch or attach ?
 
-## launch 和 attach 的选择
+What mode should we choose? Personally I recommend the `attach` mode.
+Whether it's Web debugging or Node debugging, the `attach` mode is a better choice for most scenarios.
 
-那到底使用 `launch` 和 `attach`，个人建议使用 `attach` 模式。
-不管是 Web 调试，还是 Node 调试，大部分场景下 `attach` 模式都是比较好的选择。
-
-调试 Web 项目时，使用 launch 模式存在一个问题，就是 VSCode 会以新访客的身份打开一个新的 Chrome 实例 (除非在 `launch.json` 配置中指定 userDataDir)，也就是说, 打开的 Chrome 是未登录的，并且没有插件（如下图所示）。
+when debugging a web project,One drawback to using the launch mode is that VSCode will open a new Chrome instance as a new guest (unless `userDataDir` is specified in the `launch.json` configuration), the new opened Chrome is not Logged in, and there are no extentions with it (as shown below).
 
 ![chrome-not-login](/screenshots/chrome-not-login.gif)
 
-在开发 Node 项目时，通常来说项目都是在终端启动，有时突然需要调试，这时使用 `attach` 模式，就不需要关掉已启动的项目, 再去 VSCode 中重启，也就是说 `attach` 可以做到按需启动 VSCode 调试，调试完成后，停止调试即可，显然这比 `launch` 模式灵活方便。
+When developing a Node.js project, usually the project is started in the terminal, sometimes you suddenly need to debug, if you use the `attach` mode, you don't need to turn off the started project and restart it in VSCode, you can start debugging in VSCode directly, after debugging is complete, just stop it, obviously this is more flexible than the `launch` mode.
 
 
-关于如何在调试 Web 项目时，需要打开的 Chrome 不是一个完全新的进程，可以看 [react-app(进阶)](/JavaScript/react-app/README.md#进阶) 和 [react-app-attach](/JavaScript/react-app-attach/README.md)
+When debugging a web project, If you don't want to always open a new chrome instance, see [react-app(Advanced)](/JavaScript/react-app/README.md#Advanced)  and [react-app-attach](/JavaScript/react-app-attach/README.md)

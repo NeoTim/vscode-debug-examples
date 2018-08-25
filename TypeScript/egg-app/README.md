@@ -1,17 +1,17 @@
-# VSCode 调试 Egg
+# Debugging Egg.js App
 
-## 快速体验
+## Quick experience
 
 ``` bash
 git clone git@github.com:forsigner/vscode-debug-examples.git
-cd Typescript/egg-app
+cd JavaScript/egg-app
 npm i
-code .  # 在 VScode 打开项目
+code . # open in VScode
 ```
 
-然后，在 VSCode 给代码打上断点，按下 `f5`，看到 Debug toolbar 就说明成功了。
+Then, put a breakpoint on the code in VSCode, press `f5`, and you will see the Debug toolbar.
 
-## 参考资料
+## References
 
 - [使用 VSCode 进行调试](https://eggjs.org/zh-cn/core/development.html#%E4%BD%BF%E7%94%A8-vscode-%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95)
 - [VSCode 调试 Egg 完美版 - 进化史](https://github.com/atian25/blog/issues/25)
